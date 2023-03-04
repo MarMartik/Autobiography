@@ -1,0 +1,224 @@
+body {
+   color: #40514E;
+   margin: 0;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 1em;  
+}
+
+h1 {
+    font-size: 4rem; /*16px = 100% = 1em  - em a % jsou interaktivní a když dám body em nebo %, tak se to bude sčítat i s tím, co zadám tady*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    color: #3A98B9;
+    
+}
+
+#prvniparagraf {
+    font-size: 1.8rem;
+    margin: auto auto auto auto;
+    
+    width: 40%;
+   
+}
+
+
+
+h2 {
+    color: #3A98B9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.7rem;
+    font-weight: normal;
+    
+    
+}
+
+.profilovyodstavec {
+    width: 50%;
+    margin: auto;
+    
+    
+}
+
+h3 {
+    color: #3A98B9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+p {
+    margin-bottom: 0;
+    line-height: 2;
+    
+}
+
+hr {
+    border-style: dotted none none none;
+    border-width: 5px;
+    width: 4%;
+    color: #93BFCF;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    background-color: #FFFFFF;
+    margin: 100px 0;
+
+}
+
+.bottom-container {
+    background-color: #F9F3F3;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+ 
+.skill-row {
+    margin: 50px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+   
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 600px;
+    
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 550px;
+
+}
+
+.mountain {
+   
+    margin-top: 30px;
+   
+}
+
+.graduation{
+    
+    margin-right: 30px;
+    width: 3rem;
+    float: left;
+}
+
+.briefcase {
+  
+    margin-right: 30px;
+    width: 3rem;
+    float: left;
+}
+
+.rocket {
+    margin-right: 30px;
+    width: 3rem;
+    float: left;
+}
+
+.thumbtack {
+    margin-right: 30px;
+    width: 3rem;
+    float: left;
+}
+
+
+
+
+.skillobr {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.kolo {
+    float: right;
+    margin-left: 30px;
+    
+}
+
+
+
+.otuzovani {
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    background: #3A98B9;
+    background-image: -webkit-linear-gradient(top, #3A98B9, #6096B4);
+    background-image: -moz-linear-gradient(top, #3A98B9, #6096B4);
+    background-image: -ms-linear-gradient(top, #3A98B9, #6096B4);
+    background-image: -o-linear-gradient(top, #3A98B9, #6096B4);
+    background-image: linear-gradient(to bottom, #3A98B9, #6096B4);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-seri;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .posledniodstavec {
+    margin: 40px auto 60px auto;
+    width: 40%;
+  }
+
+  .facebook {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+
+  .instagram {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+
+  .linkedin {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+
+  .footer-link {
+    color: #3A98B9;
+    font-size: 1.17rem;
+    padding-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #E8D5C4;
+  }
+
+  #copyright {
+    color: #3A98B9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.75rem;
+    padding-top: 20px;
+  }
